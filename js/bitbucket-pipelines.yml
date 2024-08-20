@@ -1,0 +1,7 @@
+pipelines:
+  branches:
+    lesson-1:
+      -step:
+          name: a simple echo
+            script:
+              -echo "Hello"
